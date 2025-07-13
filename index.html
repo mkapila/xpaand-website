@@ -1,109 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Xpaand – Experience the Future of Finance</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Xpaand | Future of Finance</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
   <header class="navbar">
-    <img src="images/logo.png" alt="Xpaand Logo" class="logo">
+    <img src="images/logo.png" alt="Xpaand Logo" class="logo" />
     <nav>
-      <a href="#">Home</a>
-      <a href="#about">About</a>
-      <a href="#products">Products</a>
-      <a href="#contact">Contact</a>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
   </header>
 
-  <section class="hero">
+  <section class="hero" id="home">
     <h1>Experience the future of finance.</h1>
     <p>AI-powered platform reimagines invoice financing and optimizes vendor payments</p>
-    <div class="launch-info">Launching soon</div>
-    <div class="features-bar">
-      <span>Finance in minutes</span>
-      <span>Attractive APR</span>
-      <span>Lower payment processing fee</span>
-      <span>Utilization-based financing</span>
-      <span>Real time cash visibility</span>
-      <span>Embedded payments</span>
+    <p>Finance in minutes • Attractive APR • Lower payment processing fee • Utilization-based financing • Real-time cash visibility • Embedded payments</p>
+    <div class="hero-buttons">
+      <a href="#explainer" class="button primary">Watch Explainer Video</a>
+      <a href="#contact" class="button secondary">Join the Waitlist</a>
     </div>
   </section>
 
-  <section class="explainer">
+  <section class="video-section" id="explainer">
+    <h2>Watch Explainer Video</h2>
+    <div class="video-container">
+      <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <section class="faq">
     <h2>Intrigued, got a question?</h2>
-    <a href="#">Watch Explainer Video</a>
     <p>See how Xpaand transforms your finance operations</p>
+    <p><a href="mailto:connect@xpaand.io">Connect@xpaand.io</a></p>
   </section>
 
-  <section id="about" class="about">
-    <h2>About Us</h2>
-    <p>Email: <a href="mailto:connect@xpaand.io">Connect@xpaand.io</a></p>
-    <h3>Our Vision</h3>
-    <p>To empower every business with real-time financial agility—by transforming how invoices are financed, payments are optimized, and capital flows are managed.</p>
+  <section class="cards-section" id="about">
+    <div class="card vision">
+      <h2>Our Vision</h2>
+      <p>To empower every business with real-time financial agility—by transforming how invoices are financed, payments are optimized, and capital flows are managed.</p>
+    </div>
+
+    <div class="card story">
+      <h2>Our Story</h2>
+      <p>Xpaand was founded with a vision to enable seamless financial workflows and unlock working capital for businesses globally using modern AI systems.</p>
+    </div>
+
+    <div class="card values">
+      <h2>Our Values</h2>
+      <p>We value transparency, efficiency, empathy, and innovation. Our mission is to deliver trustworthy, real-time financial solutions to all enterprises.</p>
+    </div>
   </section>
 
-  <section class="story-values">
-    <h3>Our Story</h3>
-    <p>Curious Banking & Payments humans-on-the-loop with Agents, enabling business models of the future</p>
-    <h3>Our Values</h3>
-    <p>At the cusp of trust & technology for innovation.</p>
-  </section>
-
-  <section id="products" class="features">
+  <section class="features" id="features">
     <h2>Key Features</h2>
-    <ul>
-      <li>Multi-modal AI Agents for Invoice Monitoring</li>
-      <li>Agentic underwriting</li>
-      <li>Supply chain value based pricing</li>
-      <li>Dynamic Credit Lines</li>
-      <li>Vendor Payment Optimization Agent</li>
-      <li>Multiple payment methods - ACH, Wire, Instant/Real time, Stable coin</li>
-      <li>Real time Reconciliation</li>
-      <li>Easy Integration with accounting/ERP systems</li>
-    </ul>
+    <div class="feature-grid">
+      <div class="feature-card">Finance in minutes</div>
+      <div class="feature-card">Attractive APR</div>
+      <div class="feature-card">Lower payment processing fee</div>
+      <div class="feature-card">Utilization-based financing</div>
+      <div class="feature-card">Real-time cash visibility</div>
+      <div class="feature-card">Embedded payments</div>
+    </div>
   </section>
 
-  <section class="cta">
-    <h2>Ready to Transform Your Finance Operations?</h2>
-    <p>Experience the power of agentic AI in finance. Streamline your invoice financing, optimize payments, and gain real-time visibility into your cash flow.</p>
-  </section>
-
-  <section id="contact" class="contact">
+  <section class="contact-form" id="contact">
     <h2>Contact Us</h2>
-    <p>Intrigued, got a question? Reach out to our humans. We'd love to hear from you.</p>
-    <p>Ready to revolutionize your financial operations? Let's discuss how Xpaand can transform your business.</p>
-    <p>Email Us: <a href="mailto:connect@xpaand.io">connect@xpaand.io</a></p>
-    <p>Live Support: Available during business hours</p>
-    <p><strong>24/7 Support</strong></p>
-
-    <h3>Why Choose Xpaand?</h3>
-    <ul>
-      <li>AI-powered automation</li>
-      <li>Real-time insights</li>
-      <li>Dynamic credit lines</li>
-      <li>Multi-modal payments</li>
-    </ul>
-
-    <form class="contact-form">
-      <input type="text" placeholder="Your full name" required />
-      <input type="email" placeholder="your@email.com" required />
-      <textarea placeholder="Tell us about your business needs..." required></textarea>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
       <button type="submit">Send Message</button>
     </form>
   </section>
 
-  <footer>
-    <div class="quick-links">
-      <a href="#">Home</a> | <a href="#about">About</a> | <a href="#products">Products</a> | <a href="#contact">Contact</a>
-    </div>
-    <div class="subscribe">
-      <p>Stay Updated</p>
-      <input type="email" placeholder="Your email">
-    </div>
-    <p>&copy; 2024 Xpaand. All rights reserved.</p>
-    <p><a href="#">Terms of Service</a> | <a href="#">Privacy Policy</a> | <a href="#">Cookie Policy</a></p>
+  <footer class="footer">
+    <p>&copy; 2025 Xpaand. All rights reserved.</p>
   </footer>
 </body>
+
 </html>

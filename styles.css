@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #F4F2F8;
+  color: #2E1C4F;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+  background: #ffffff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.logo {
+  height: 40px;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #6F3CC9;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(to right, #C561E6, #6F3CC9);
+  color: white;
+}
+
+.cta-buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 12px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.primary {
+  background-color: white;
+  color: #6F3CC9;
+}
+
+.secondary {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  margin-left: 10px;
+}
+
+.problems, .features, .video, .contact {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.cards, .grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.card, .feature {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 300px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.video iframe {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+
+.contact input, .contact textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+footer {
+  background-color: #2E1C4F;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
